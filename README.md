@@ -1,75 +1,34 @@
-# Nuxt Minimal Starter
+# Nuxt3 Boilerplate
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A minimal Nuxt 3 boilerplate with opinionated ESLint setup, Pinia, Nuxt UI, and image module support.
+
+## Features
+
+- ✅ Nuxt 3
+- 🎨 ESLint-only formatting (Prettier-free)
+- 🧠 Pinia for state management
+- 🖼️ Nuxt Image for optimized image handling
+- 💅 Nuxt UI (UnoCSS-based component library)
+- 🔍 Opinionated formatting via ESLint
 
 ## Setup
 
-Make sure to install dependencies:
-
 ```bash
-# npm
+# Clone this repo
+git clone https://github.com/ayoakinti/nuxt3_boilerplate.git
+
+# Navigate to the project
+cd nuxt3-boilerplate
+
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Run the dev server
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Nuxt documentation
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
